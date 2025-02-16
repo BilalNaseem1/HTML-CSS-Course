@@ -53,3 +53,5 @@ A grey box containing a heading and a paragraph.
 Understanding the difference between `<span>` and `<div>` helps in writing cleaner, more maintainable HTML. Use `<span>` for inline styling and `<div>` for block-level grouping of elements.
 
 
+A | B | C
+b |
