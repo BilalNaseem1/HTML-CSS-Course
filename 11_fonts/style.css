@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Raleway-Light;
+    src: url(fonts/Raleway-Light.ttf);
+}
+
+#new_heading {
+    font-family: Verdana, Tahoma, sans-serif, Arial;
+}
+
+#p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+#next_heading {
+    font-family: Raleway-Light;
+}
