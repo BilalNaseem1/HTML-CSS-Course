@@ -1,0 +1,47 @@
+<!-- Combinators 
+There are 4 types of combinators in CSS:
+1. Child Combinator
+2. Descendant Combinator
+3. General Sibling Combinator
+4. Adjacent Sibling Combinator
+
+Child Combinator
+The child combinator is denoted by the > character and is used to select the direct children of a parent element.
+for example: p>span { color: red; }
+
+Descendant Combinator
+The descendant combinator is denoted by the space character ( ) and is used to select all the elements that are descendants of a parent element.
+for example: p span { color: red; }
+
+General Sibling Combinator
+The general sibling combinator is denoted by the ~ character and is used to select all the elements that are siblings of a parent element.
+
+Adjacent Sibling Combinator
+The adjacent sibling combinator is denoted by the + character  and is used to select all the elements that are adjacent siblings of a parent element.
+for example: p+span { color: red; }
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bro Code Combinators</h1>
+    <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+    
+</body>
+</html>

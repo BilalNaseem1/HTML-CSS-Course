@@ -1,0 +1,17 @@
+a:link{
+    color: rgb(82, 147, 168);
+}
+a:hover{
+    color: purple;
+    font-size: 10em;
+}
+li:hover{
+    color: red;
+}
+li:not(:hover){
+color: aqua;
+}
+/* n-th child pseudo class */
+li:nth-child(even){
+    color: purple;
+}

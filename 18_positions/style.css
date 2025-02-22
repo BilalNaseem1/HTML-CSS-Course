@@ -1,0 +1,49 @@
+#box1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    /* position */
+    top: 50px;
+    left: 50px;
+}
+
+#box2{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    /* position */
+    top: 1000px;
+    left: 100px;
+}
+
+#box3{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: fixed;
+    /* position */
+    top: 150px;
+    left: 150px;
+}
+
+#box4{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: sticky;
+    /* position */
+    top: 200px;
+    left: 200px;
+}
+
+#box5{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: static;
+    /* position */
+    top: 50px;
+    left: 50px;
+}
