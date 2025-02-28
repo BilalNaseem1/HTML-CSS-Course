@@ -1,0 +1,15 @@
+h1::first-letter{
+    font-size: 5em;
+}
+
+#apple::after{
+    content: "🍎";
+}
+
+#banana::before{
+    content: "🍌";
+}
+
+#orange::after{
+    content: "🍊";
+}
